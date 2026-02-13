@@ -1,0 +1,12 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
