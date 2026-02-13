@@ -31,7 +31,7 @@ namespace PerfDog.Tests.Models.Pet
     public class Category
     {
         [JsonPropertyName("id")]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
@@ -40,7 +40,7 @@ namespace PerfDog.Tests.Models.Pet
     public class Tag
     {
         [JsonPropertyName("id")]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
